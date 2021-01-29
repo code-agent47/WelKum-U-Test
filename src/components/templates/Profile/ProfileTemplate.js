@@ -16,7 +16,7 @@ class ProfileTemplate extends Component{
                         <div className={`div-lg-2`}>
                             <div className={`container-full`}>
                                 <HeaderText value="Email:" />
-                                <HeaderText value={this.props.submitState.results.email} />
+                                <HeaderText value={this.props.submitState.results.info.email} />
                             </div>
                         </div>
                       

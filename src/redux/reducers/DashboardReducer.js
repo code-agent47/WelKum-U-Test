@@ -1,4 +1,4 @@
-import {FETCH_REQUEST,FETCH_SUCCESSFUL,FETCH_FAILED, FETCH_CLEAR} from '../constants';
+import {FETCH_REQUEST,FETCH_SUCCESSFUL,FETCH_FAILED} from '../constants';
 
 const initialState = {
     fetching: false,
@@ -7,10 +7,6 @@ const initialState = {
 
 const dashboardReducer = (state = initialState, action) => {
     switch (action.type) {
-      case FETCH_CLEAR:
-      return Object.assign({}, state, {
-         results: null
-      })
       case FETCH_REQUEST:
       return Object.assign({}, state, {
         fetching: true,

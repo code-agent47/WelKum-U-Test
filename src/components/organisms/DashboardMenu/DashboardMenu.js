@@ -31,7 +31,7 @@ class DashboardMenu extends Component{
                         </div>
                     </div>
                     <div className={`container-full dashboard-menu__bottom`}>
-                        <NavLink to={`my-listings`} activeClassName={'active'}
+                        <NavLink to={`/my-listings`} activeClassName={'active'}
                          isActive={(match,location) => location.pathname.includes("/my-listings")}>
                             <div className={`container-full dashboard-menu__item`}>
                                 <div className={`div-sm-2 dashboard-menu__item__icon`}>
@@ -42,7 +42,7 @@ class DashboardMenu extends Component{
                                 </div>
                             </div>
                         </NavLink>    
-                        <NavLink to={`accomodation-interests`} activeClassName={'active'}>
+                        <NavLink to={`/accomodation-interests`} activeClassName={'active'}>
                             <div className={`container-full dashboard-menu__item`}>
                                 <div className={`div-sm-2 dashboard-menu__item__icon`}>
                                    <i className={`fa fa-heart-o`}></i>
@@ -52,7 +52,7 @@ class DashboardMenu extends Component{
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to={`transactions`} activeClassName={'active'}>
+                        <NavLink to={`/transactions`} activeClassName={'active'}>
                             <div className={`container-full dashboard-menu__item`}>
                                 <div className={`div-sm-2 dashboard-menu__item__icon`}>
                                    <i className={`fa fa-briefcase`}></i>
@@ -62,7 +62,7 @@ class DashboardMenu extends Component{
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to={`profile`} activeClassName={'active'}>
+                        <NavLink to={`/profile`} activeClassName={'active'}>
                             <div className={`container-full dashboard-menu__item`}>
                                 <div className={`div-sm-2 dashboard-menu__item__icon`}>
                                    <i className={`fa fa-user`}></i>
@@ -72,7 +72,7 @@ class DashboardMenu extends Component{
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to={`settings`} activeClassName={'active'}>
+                        <NavLink to={`/settings`} activeClassName={'active'}>
                             <div className={`container-full dashboard-menu__item`}>
                                 <div className={`div-sm-2 dashboard-menu__item__icon`}>
                                    <i className={`fa fa-cog`}></i>
@@ -82,7 +82,7 @@ class DashboardMenu extends Component{
                                 </div>
                             </div>
                         </NavLink>
-                        <NavLink to={`notifications`} activeClassName={'active'}>
+                        <NavLink to={`/notifications`} activeClassName={'active'}>
                             <div className={`container-full dashboard-menu__item`}>
                                 <div className={`div-sm-2 dashboard-menu__item__icon`}>
                                    <i className={`fa fa-bell`}></i>

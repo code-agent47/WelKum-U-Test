@@ -5,6 +5,7 @@ import Text from '../../atoms/Text/Text';
 import {Link} from 'react-router-dom';
 import ExploreGallery from '../../organisms/ExploreGallery/ExploreGallery';
 import Destinations from '../../organisms/Destinations/Destinations';
+import ExploreMenu from '../../organisms/ExploreMenu/ExploreMenu';
 
 class ExploreDestination extends Component{
 
@@ -23,6 +24,9 @@ class ExploreDestination extends Component{
                         <div className={`container-full content__bottom`}>
                             <div className={`div-lg-3 content__bottom__item`}>
                                 <Destinations />
+                            </div>
+                            <div className={`div-lg-3 content__bottom__item`}>
+                                <ExploreMenu />
                             </div>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ class SigninForm extends Component{
         let sessionKey = sessionStorage.getItem("userEmail");
         let cookie = Cookies.get("userEmail");
         if( sessionKey || cookie ){
-            history.replace('/dashboard');
+            history.replace('/my-listings');
         }
     }
 

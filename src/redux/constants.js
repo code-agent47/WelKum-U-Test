@@ -12,9 +12,9 @@ export const AUTH_USER = 'AUTH_USER';
 export const FETCH_REQUEST = 'FETCH_REQUEST';
 export const FETCH_FAILED = 'FETCH_FAILED';
 export const FETCH_SUCCESSFUL = 'FETCH_SUCCESSFUL';
-export const FETCH_CLEAR = 'FETCH_CLEAR';
 
 /* Constants for saving data */
 
-export const SUBMIT_SAVE = 'SUBMIT_SAVE';
+export const SUBMIT_INFO = 'SUBMIT_INFO';
+export const SUBMIT_PROVINCE = 'SUBMIT_PROVINCE';
 
