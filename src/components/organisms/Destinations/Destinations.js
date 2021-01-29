@@ -14,7 +14,7 @@ class Destinations extends Component {
     componentDidMount(){
         this.props.saveProvince({
             province: 'New Brunswick',
-            city: ' Fredericton'
+            city: 'Fredericton'
         })
     }
 
