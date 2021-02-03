@@ -17,7 +17,10 @@ const DashboardMenuStyle = styled.div`
     .dashboard-menu__top__logo{
         background:#90a2a2;
         border-radius:50%;
+        box-sizing:border-box;
         height:60px;
+        padding:10px;
+        padding-top:8px;
         width:60px;
     }
     .dashboard-menu__top__info{

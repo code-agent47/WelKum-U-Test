@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import DashboardMenuStyle from './DashboardMenuStyle';  
 import { connect } from 'react-redux';
 import HeaderText from '../../atoms/HeaderText/Text';
+import Img from '../../atoms/Img/Img';
 import {NavLink} from 'react-router-dom';
 import {history} from '../../../helpers/History';
 import Cookies from 'js-cookie';
+import profileicon from '../../../assets/images/profile-icon.png';
 
 class DashboardMenu extends Component{
 
@@ -24,7 +26,7 @@ class DashboardMenu extends Component{
                 <DashboardMenuStyle>
                     <div className={`container-full dashboard_menu__top`}>
                         <div className={`dashboard-menu__top__logo`}>
-
+                            <Img image={profileicon} className={`img`} />
                         </div>
                         <div className={`dashboard-menu__top__info`}>
                             <HeaderText value="Hey Segun" />
